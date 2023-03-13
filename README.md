@@ -5,4 +5,4 @@
  1. HTML5 и CSS3
  2. Методология БЭМ  
  3. Адаптивная верстка  
- https://muhamed12k.github.io/Russian-travel.m /
+https://muhamed12k.github.io/russian-travel/
