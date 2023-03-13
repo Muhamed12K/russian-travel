@@ -1,7 +1,7 @@
 .place__paragraph {
     margin: 0 0 24px 0;
     font-size: 18px;
-    line-height: 29px;
+    line-height: 163%;
     font-weight: 400;
     color: #ffffff;
   }
@@ -13,13 +13,13 @@
   @media (min-width: 426px) and (max-width: 768px) {
     .place__paragraph {
       font-size: 16px;
-      line-height: 26px;
+      line-height: 163%;
     }
   }
 
   @media (max-width: 425px) {
     .place__paragraph {
       font-size: 16px;
-      line-height: 26px;
+      line-height: 163%;
     }
   }

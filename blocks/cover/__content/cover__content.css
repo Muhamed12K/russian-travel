@@ -1,7 +1,6 @@
 .cover__content {
     margin: 0 auto;
     max-width: 560px;
-    position: absolute;
     top: 0;
     right: 0;
     bottom: 0;
@@ -11,11 +10,11 @@
     justify-content: center;
     align-items: center;
     z-index: 10;
+    position:absolute ;
   }
 
   @media (max-width: 425px) {
     .cover__content {
-      margin: 0 auto;
       width: 288px;
     }
   }

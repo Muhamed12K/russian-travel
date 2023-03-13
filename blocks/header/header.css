@@ -10,7 +10,6 @@
   @media (min-width: 769px) and (max-width: 1024px) {
     .header {
       margin: 28px auto 48px;
-      max-width: calc(100% - 96px);
     }
   }
 
@@ -21,9 +20,9 @@
     }
   }
 
-  @media (max-width: 425px) {
+  @media (max-width: 320px) {
     .header {
-      margin: 28px auto 48px;
+      margin: 16px auto 48px;
       max-width: calc(100% - 32px);
     }
   }
