@@ -10,7 +10,7 @@
     justify-content: center;
     align-items: center;
     z-index: 10;
-    position:absolute ;
+    position: absolute;
   }
 
   @media (max-width: 425px) {
