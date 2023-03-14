@@ -1,24 +1,18 @@
 .cover__title {
-    margin: 0 0 32px;
-    font-size: 72px;
-    line-height: 76px;
-    font-weight: 900;
-    color: #ffffff;
-    text-align: center;
-  }
+  margin: 0;
+  max-width: 560px;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: calc(76 / 72 * 100%);
+  text-align: center;
+  position: relative;
+  z-index: 10;
+}
 
-  @media (min-width: 426px) and (max-width: 560px) {
-    .cover__title {
-      font-size: 32px;
-      line-height: 36px;
-    }
+@media (max-width: 767px) {
+  .cover__title {
+    max-width: calc(288px + (432 + 432 * .7) * (100vw - 320px) / 767);
+    font-size: calc(32px + (40 + 40 * .7) * (100vw - 320px) / 767);
+    line-height: calc(35 / 32 * 100%);
   }
-
-  @media (max-width: 425px) {
-    .cover__title {
-      width: 250px;
-      margin: 0 0 16px;
-      font-size: 32px;
-      line-height: 36px;
-    }
-  }
+}

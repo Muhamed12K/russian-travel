@@ -5,15 +5,15 @@
     grid-gap: 40px 40px;
   }
 
-  @media (min-width: 769px) and (max-width: 1024px) {
+  @media (min-width: 1024px) and (max-width: 1279px) {
     .place {
-      grid-template-columns: minmax(340px, 360px) minmax(356px, 384px);
+      grid-template-columns: minmax(440px, 460px) minmax(456px, 484px);
     }
   }
 
-  @media (min-width: 426px) and (max-width: 768px) {
+  @media (min-width: 426px) and (max-width: 1023px) {
     .place {
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
       grid-gap: 48px 28px;
     }
   }

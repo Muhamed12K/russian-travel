@@ -7,7 +7,7 @@
     color: #ffffff;
   }
 
-  @media (min-width: 426px) and (max-width: 768px) {
+  @media (min-width: 426px) and (max-width: 1023px) {
     .place__title {
       max-width: 95%;
       margin: 0 0 0 0;
