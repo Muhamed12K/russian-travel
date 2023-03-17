@@ -22,7 +22,6 @@
 
   @media (max-width: 767px) {
     .photo-grid__item {
-      max-width: 288px;
-      width: 100%;
+      max-width: 100%;
     }
   }
