@@ -4,6 +4,7 @@
     font-weight: 400;
     color: #ffffff;
     transition: ease-in-out .335s;
+    max-width: fit-content;
   }
 
   .place__link:hover {

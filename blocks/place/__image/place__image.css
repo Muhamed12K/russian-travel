@@ -12,7 +12,7 @@
 
   @media (min-width: 426px) and (max-width: 1023px) {
     .place__image {
-      margin: 0 auto;
+      margin: 0;
       max-width: 340px;
       width: 100%;
     }
